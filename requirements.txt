@@ -1,0 +1,22 @@
+# Core
+torch>=1.13.0
+torchvision>=0.14.0
+numpy>=1.23.0
+pandas>=1.5.0
+
+# CLIP (OpenAI)
+git+https://github.com/openai/CLIP.git
+
+# FAISS (CPU build; replace with faiss-gpu for GPU support)
+faiss-cpu>=1.7.3
+
+# Async HTTP
+aiohttp>=3.8.0
+
+# Misc
+tqdm>=4.64.0
+Pillow>=9.2.0
+scikit-learn>=1.1.0
+
+# Optional: auto-load .env files
+python-dotenv>=1.0.0
